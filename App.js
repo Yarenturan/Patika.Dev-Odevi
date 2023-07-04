@@ -100,11 +100,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: 'white',
+    backgroundColor:'beige',  //Rengi normalde beyazdı fakat böyle daha estetik durdu.
   },
   searchInput: {
     height: 40,
-    borderColor: '#cccc',
+    borderColor: 'gray',
     borderWidth: 3,
     paddingHorizontal: 18,
     marginBottom: 15,
@@ -115,14 +115,14 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     marginBottom: 16,
-    borderWidth: 1,
-    borderColor: 'gray',
+    borderWidth: 5,    //1 di fakat  5 olunca daha güzel durdu.
+    borderColor: 'orange', //Rengi normalde beyazdı fakat böyle daha estetik durdu.
     borderRadius: 10,
     padding: 8,
   },
   itemImage: {
-    width: 180,
-    height: 230,
+    width: 150,  //180 di ama güzel durmuyordu.
+    height: 200,  //230 du ama güzel durmuyordu.
     marginBottom: 8,
   },
   itemTitle: {
